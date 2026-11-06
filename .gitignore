@@ -1,0 +1,63 @@
+# Python and editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and machine settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# External corpora, backbone/tokenizer and lexicon files
+/dataset/*
+!/dataset/README.md
+/roberta/*
+!/roberta/README.md
+/opinion-lexicon-English/*
+!/opinion-lexicon-English/README.md
+
+# All weights, caches, run products and local archives
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+runs*/
+logs/
+*.log
+*.partial
+checkpoints/
+state_dict/
+cache/
+.cache/
+tmp/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Paper drafts, temporary diagnostics and local annotation workspaces
+annotations/
+analysis/
+*.docx
+*.xlsx
+*.pdf

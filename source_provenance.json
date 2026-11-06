@@ -1,0 +1,145 @@
+{
+  "schema": "aeor_rg_source_provenance_v1",
+  "source_checkout": "DAGF-chuangxin2",
+  "release_date": "2026-11-06",
+  "implementation": "frozen v1 AEOR + relation-only RG; paper full profile",
+  "model_and_training_sources_modified": false,
+  "copied_files": {
+    "dagf_complete/__init__.py": {
+      "source": "dagf_default_upgrade_20261028/payload/dagf_complete/__init__.py",
+      "sha256": "c8907bda2f24c82a1ebfef8cbb72629217c23d5d85ef26a6187af8b29d931ec7"
+    },
+    "dagf_complete/data.py": {
+      "source": "dagf_default_upgrade_20261028/payload/dagf_complete/data.py",
+      "sha256": "36572040b9f748414aebffc7588deb71cff2978709eaf5b794a43e75f9a248f5"
+    },
+    "dagf_complete/fusion.py": {
+      "source": "dagf_default_upgrade_20261028/payload/dagf_complete/fusion.py",
+      "sha256": "833821bac21013e14e1d6765e5991e5f4cbe6ce64e2765f109b0b0d3ef335bae"
+    },
+    "dagf_complete/model.py": {
+      "source": "dagf_default_upgrade_20261028/payload/dagf_complete/model.py",
+      "sha256": "b81d9526a911fe624d3036da1fbd988d96d32c561c5f16a12e51e0b18b64a2a3"
+    },
+    "dagf_complete/train.py": {
+      "source": "dagf_default_upgrade_20261028/payload/dagf_complete/train.py",
+      "sha256": "8164260dcf78502e2efaaa1e9e4ecf641b084a477da9dbf41faaed65620e439b"
+    },
+    "innovations/__init__.py": {
+      "source": "innovations/__init__.py",
+      "sha256": "d74a3c1f42b35cb6a24902217112c0e8cbfbea32afac82153853e91fe7b03648"
+    },
+    "innovations/paper_experiments/__init__.py": {
+      "source": "innovations/paper_experiments/__init__.py",
+      "sha256": "94757721a8c904bba31bf472c139b376ad98916730e64c6513ff19ab06f700cf"
+    },
+    "innovations/paper_experiments/model.py": {
+      "source": "innovations/paper_experiments/model.py",
+      "sha256": "9c98871beedff2c21d2b6970173c0a6d7707523db478d00566f320be3f747bdb"
+    },
+    "innovations/paper_experiments/spec.py": {
+      "source": "innovations/paper_experiments/spec.py",
+      "sha256": "e33fb799b37842222f60c684ba03bea695b49376b98ef2d974ccdf920764a67e"
+    },
+    "innovations/paper_experiments/train.py": {
+      "source": "innovations/paper_experiments/train.py",
+      "sha256": "4387efcc8794897fe15a5a31c7dd9243c03349d34f2ac940d2afdfa9538cc723"
+    },
+    "innovations/target_readout/__init__.py": {
+      "source": "innovations/target_readout/__init__.py",
+      "sha256": "008587e6787e10de5c34cb5d693bbacc82557f53ad01a18bd9964e518ea3cc48"
+    },
+    "innovations/target_readout/model.py": {
+      "source": "innovations/target_readout/model.py",
+      "sha256": "04f738368a33acb642684167695fe4e8643890262fff7418ae67d2631ed4a74f"
+    },
+    "innovations/target_readout/train.py": {
+      "source": "innovations/target_readout/train.py",
+      "sha256": "089fec3add46006f8767fc003022b00d97fc14d2d7db1086ad67338407a57fa6"
+    },
+    "innovations/twitter_v1/__init__.py": {
+      "source": "innovations/twitter_v1/__init__.py",
+      "sha256": "ba19d4d7563b90fa045acf40b13b0a14447f5703ebd186c240598ea6a1f3976d"
+    },
+    "innovations/twitter_v1/data.py": {
+      "source": "innovations/twitter_v1/data.py",
+      "sha256": "486742aabfe0a9060c056b2926351d8dded21de8665236f6c72c5a78823b4302"
+    },
+    "innovations/twitter_v1/evaluation.py": {
+      "source": "innovations/twitter_v1/evaluation.py",
+      "sha256": "7007305a5bb6f4fcb84f6bd3e86b676adc6c2ca72e57b4d8cf49e36c152365f1"
+    },
+    "innovations/typed_stability/__init__.py": {
+      "source": "innovations/typed_stability/__init__.py",
+      "sha256": "3e3fbe9b7d3b0ed14ff68edc17e22b9675bfab906c4ed16e05a37b703b76da97"
+    },
+    "innovations/typed_stability/checkpoints.py": {
+      "source": "innovations/typed_stability/checkpoints.py",
+      "sha256": "e4127f358289be027c0970dcebbffd0c3c23122a5fe0e7d4c213d3ed1cbc42d7"
+    },
+    "innovations/typed_stability/suite.py": {
+      "source": "innovations/typed_stability/suite.py",
+      "sha256": "d6867367009a85e4a1b23e74c22bc896829fc1dcb75e238b7774b6a44127600d"
+    },
+    "innovations/typed_syntax/__init__.py": {
+      "source": "innovations/typed_syntax/__init__.py",
+      "sha256": "593bf088213fe50d83813994e7c819b363e837730e8591cd0ef561d03db5045a"
+    },
+    "innovations/typed_syntax/data.py": {
+      "source": "innovations/typed_syntax/data.py",
+      "sha256": "d33db6a6f16978d0e7da896e2845c7f070e7641d3736e54309a99f3a8474a582"
+    },
+    "innovations/typed_syntax/layers.py": {
+      "source": "innovations/typed_syntax/layers.py",
+      "sha256": "ea28670ff21d880196c85c855379aa7a111a672e6844b26c09985682634f9c00"
+    },
+    "innovations/v1_reference/__init__.py": {
+      "source": "innovations/v1_reference/__init__.py",
+      "sha256": "2c1e141c4021f7e63a55a45bbbbd649d83fee25ab2d1b93429580c8b58e85615"
+    },
+    "innovations/v1_reference/baseline.py": {
+      "source": "innovations/v1_reference/baseline.py",
+      "sha256": "0e17464feda339c1592da90f43ebce40bb70628b21608e18db36d453eab76fa8"
+    },
+    "innovations/v1_reference/data.py": {
+      "source": "innovations/v1_reference/data.py",
+      "sha256": "50d0bee8a98d691d5530ffa0f5246d9891adcb93c509c05ba882e7b3e9a925cd"
+    },
+    "innovations/v1_reference/evaluation.py": {
+      "source": "innovations/v1_reference/evaluation.py",
+      "sha256": "7007305a5bb6f4fcb84f6bd3e86b676adc6c2ca72e57b4d8cf49e36c152365f1"
+    },
+    "innovations/v1_reference/model.py": {
+      "source": "innovations/v1_reference/model.py",
+      "sha256": "f48e839ae52ce131a988129367650014a91277dc947c5663c9e60c1fcaa0e5b2"
+    },
+    "innovations/v1_relation_gate/__init__.py": {
+      "source": "innovations/v1_relation_gate/__init__.py",
+      "sha256": "fecc082ca592480ebeb0d0eb6953b1a6cd971025d680aa47d9dfe59653dbebbf"
+    },
+    "innovations/v1_relation_gate/evaluation.py": {
+      "source": "innovations/v1_relation_gate/evaluation.py",
+      "sha256": "b78e380cbe2aa278751e0d978e2278ba005d51855a7d3c0d9600417cffe2aa99"
+    },
+    "innovations/v1_relation_gate/layers.py": {
+      "source": "innovations/v1_relation_gate/layers.py",
+      "sha256": "e61106d80aaa23da07925cab1e3d1d46a43abf7cfea35091f66e1230a1531ef4"
+    },
+    "innovations/v1_relation_gate/model.py": {
+      "source": "innovations/v1_relation_gate/model.py",
+      "sha256": "4f948ba46190f39837c7f04fd5a7d62df98d1f2397f051faee85ac466c8214c9"
+    },
+    "innovations/v1_relation_gate/suite.py": {
+      "source": "innovations/v1_relation_gate/suite.py",
+      "sha256": "11d22df34f5af773f6e9a84681e19f1eef92545a44fea065967868cbb1c6a713"
+    },
+    "innovations/v1_relation_gate/train.py": {
+      "source": "innovations/v1_relation_gate/train.py",
+      "sha256": "6a4091f910c4442e2de36639dfe591848d1dcc691d745cf5a841e095ecf057fd"
+    },
+    "requirements.txt": {
+      "source": "requirements.txt",
+      "sha256": "3d1144ded1677f1598116d97306a5ae48f3200f8f998dd11b7c324d7f0bb4499"
+    }
+  }
+}
