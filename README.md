@@ -36,7 +36,7 @@ Run the full model on all three datasets with five random seeds from the reposit
 python -B run_experiments.py all
 ```
 
-The seeds are 1000 through 1004, giving 15 sequential training runs. Outputs are saved under the corresponding batch directory in `runs_suites/`. `per_seed.csv` records individual runs, `mean_std.csv` reports means and sample standard deviations after all requested seeds complete, and `summary.json` records the summary status. Rerunning the command skips verified completed runs and restarts incomplete runs in new attempt directories.
+ giving 15 sequential training runs. Outputs are saved under the corresponding batch directory in `runs_suites/`. `per_seed.csv` records individual runs, `mean_std.csv` reports means and sample standard deviations after all requested seeds complete, and `summary.json` records the summary status. Rerunning the command skips verified completed runs and restarts incomplete runs in new attempt directories.
 
 Training uses the full training set and evaluates on the test set at the intervals defined in `configs/` and at each epoch's end. Accuracy and Macro-F1 independently select their best checkpoints, saved as `best_acc.pt` and `best_f1.pt`.
 
